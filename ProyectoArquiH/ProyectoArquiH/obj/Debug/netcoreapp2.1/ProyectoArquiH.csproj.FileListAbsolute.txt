@@ -1,0 +1,11 @@
+C:\Users\Laura\source\repos\ProyectoArquiH\ProyectoArquiH\bin\Debug\netcoreapp2.1\ProyectoArquiH.deps.json
+C:\Users\Laura\source\repos\ProyectoArquiH\ProyectoArquiH\bin\Debug\netcoreapp2.1\ProyectoArquiH.runtimeconfig.json
+C:\Users\Laura\source\repos\ProyectoArquiH\ProyectoArquiH\bin\Debug\netcoreapp2.1\ProyectoArquiH.runtimeconfig.dev.json
+C:\Users\Laura\source\repos\ProyectoArquiH\ProyectoArquiH\bin\Debug\netcoreapp2.1\ProyectoArquiH.dll
+C:\Users\Laura\source\repos\ProyectoArquiH\ProyectoArquiH\obj\Debug\netcoreapp2.1\ProyectoArquiH.csprojAssemblyReference.cache
+C:\Users\Laura\source\repos\ProyectoArquiH\ProyectoArquiH\obj\Debug\netcoreapp2.1\ProyectoArquiH.csproj.CoreCompileInputs.cache
+C:\Users\Laura\source\repos\ProyectoArquiH\ProyectoArquiH\obj\Debug\netcoreapp2.1\ProyectoArquiH.AssemblyInfoInputs.cache
+C:\Users\Laura\source\repos\ProyectoArquiH\ProyectoArquiH\obj\Debug\netcoreapp2.1\ProyectoArquiH.AssemblyInfo.cs
+C:\Users\Laura\source\repos\ProyectoArquiH\ProyectoArquiH\bin\Debug\netcoreapp2.1\ProyectoArquiH.pdb
+C:\Users\Laura\source\repos\ProyectoArquiH\ProyectoArquiH\obj\Debug\netcoreapp2.1\ProyectoArquiH.dll
+C:\Users\Laura\source\repos\ProyectoArquiH\ProyectoArquiH\obj\Debug\netcoreapp2.1\ProyectoArquiH.pdb
