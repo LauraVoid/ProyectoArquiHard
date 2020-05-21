@@ -804,11 +804,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Laura\\source\\repos\\ProyectoArquiH\\ProyectoArquiH\\ProyectoArquiH.csproj",
+      "projectUniqueName": "C:\\Users\\Laura\\Desktop\\Universidad\\2020-1\\ArquiHard\\Proyecto\\ProyectoArquiHard\\ProyectoArquiH\\ProyectoArquiH\\ProyectoArquiH.csproj",
       "projectName": "ProyectoArquiH",
-      "projectPath": "C:\\Users\\Laura\\source\\repos\\ProyectoArquiH\\ProyectoArquiH\\ProyectoArquiH.csproj",
+      "projectPath": "C:\\Users\\Laura\\Desktop\\Universidad\\2020-1\\ArquiHard\\Proyecto\\ProyectoArquiHard\\ProyectoArquiH\\ProyectoArquiH\\ProyectoArquiH.csproj",
       "packagesPath": "C:\\Users\\Laura\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Laura\\source\\repos\\ProyectoArquiH\\ProyectoArquiH\\obj\\",
+      "outputPath": "C:\\Users\\Laura\\Desktop\\Universidad\\2020-1\\ArquiHard\\Proyecto\\ProyectoArquiHard\\ProyectoArquiH\\ProyectoArquiH\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
