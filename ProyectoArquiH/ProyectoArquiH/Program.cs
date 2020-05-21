@@ -410,7 +410,7 @@ namespace ProyectoArquiH
             sw.WriteLine("Version 1; " + a.Height + "x" + a.Width + "; " + tiempo);
             sw.Close();
 
-            a.Save("./invertidas/version1/" + depth + "-" + size + ".jpg", ImageFormat.Jpeg);
+            a.Save("./inv/version1/" + depth + "-" + size + ".jpg", ImageFormat.Jpeg);
             original.Dispose();
             a.Dispose();
         }
@@ -461,9 +461,10 @@ namespace ProyectoArquiH
             Console.WriteLine("Tiempo " + tiempo);
             sw.WriteLine("Version 2; " + a.Height + "x" + a.Width + "; " + tiempo);
             sw.Close();
-            a.Save("./invertidas/version2/" + depth + "-" + size + ".jpg", ImageFormat.Jpeg);
+            a.Save("./inv/version2/" + depth + "-" + size + ".jpg", ImageFormat.Jpeg);
             original.Dispose();
             a.Dispose();
+           
         }
         static void version3(String ubicacion, int depth, int size)
         {
@@ -492,7 +493,7 @@ namespace ProyectoArquiH
             Console.WriteLine("Tiempo " + tiempo);
             sw.WriteLine("Version 3; " + a.Height + "x" + a.Width + "; " + tiempo);
             sw.Close();
-            a.Save("./invertidas/version3/" + depth + "-" + size + ".jpg", ImageFormat.Jpeg);
+            a.Save("./inv/version3/" + depth + "-" + size + ".jpg", ImageFormat.Jpeg);
             original.Dispose();
             a.Dispose();
         }
@@ -533,7 +534,7 @@ namespace ProyectoArquiH
             Console.WriteLine("Tiempo " + tiempo);
             sw.WriteLine("Version 4; " + a.Height + "x" + a.Width + "; " + tiempo);
             sw.Close();
-            a.Save("./invertidas/version4/" + depth +"-"+ size+".jpg", ImageFormat.Jpeg);
+            a.Save("./inv/version4/" + depth +"-"+ size+".jpg", ImageFormat.Jpeg);
             original.Dispose();
             a.Dispose();
         }
@@ -576,7 +577,7 @@ namespace ProyectoArquiH
             Console.WriteLine("Tiempo " + tiempo);
             sw.WriteLine("Version 5; " + a.Height + "x" + a.Width + "; " + tiempo);
             sw.Close();
-            a.Save("./invertidas/version5/" + depth + "-" + size + ".jpg", ImageFormat.Jpeg);
+            a.Save("./inv/version5/" + depth + "-" + size + ".jpg", ImageFormat.Jpeg);
             original.Dispose();
             a.Dispose();
         }
