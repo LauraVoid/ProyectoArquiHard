@@ -21,7 +21,7 @@ namespace ProyectoArquiH
             Console.WriteLine("size (64,160,512,1500)");
             String si = Console.ReadLine();
             int size = int.Parse(si);
-            Console.WriteLine("depth (8,24,32)");
+            Console.WriteLine("depth (8,16,32)");
             String dep = Console.ReadLine();
             int depth = int.Parse(dep);
 
@@ -30,10 +30,10 @@ namespace ProyectoArquiH
             String imagen5128 = "./Imagenes/512/8.jpg";
             String imagen15008 = "./Imagenes/1500/8.jpg";
 
-            String imagen6416 = "./Imagenes/64/24.jpg";
-            String imagen16016 = "./Imagenes/160/24.jpg";
-            String imagen51216 = "./Imagenes/512/24.jpg";
-            String imagen150016 = "./Imagenes/1500/24.jpg";
+            String imagen6416 = "./Imagenes/64/16.jpg";
+            String imagen16016 = "./Imagenes/160/16.jpg";
+            String imagen51216 = "./Imagenes/512/16.jpg";
+            String imagen150016 = "./Imagenes/1500/16.jpg";
 
             String imagen6432 = "./Imagenes/64/32.jpg";
             String imagen16032 = "./Imagenes/160/32.jpg";
@@ -48,7 +48,7 @@ namespace ProyectoArquiH
                         {
                             version1(imagen648, depth, size);
                         }
-                        if (depth == 24)
+                        if (depth == 16)
                         {
                             version1(imagen6416, depth, size);
                         }
@@ -64,7 +64,7 @@ namespace ProyectoArquiH
                         {
                             version1(imagen1608, depth, size);
                         }
-                        if (depth == 24)
+                        if (depth == 16)
                         {
                             version1(imagen16016, depth, size);
                         }
@@ -80,7 +80,7 @@ namespace ProyectoArquiH
                         {
                             version1(imagen5128, depth, size);
                         }
-                        if (depth == 24)
+                        if (depth == 16)
                         {
                             version1(imagen51216, depth, size);
                         }
@@ -96,7 +96,7 @@ namespace ProyectoArquiH
                         {
                             version1(imagen15008, depth, size);
                         }
-                        if (depth == 24)
+                        if (depth == 16)
                         {
                             version1(imagen150016, depth, size);
                         }
@@ -114,7 +114,7 @@ namespace ProyectoArquiH
                         {
                             version2(imagen648, depth, size);
                         }
-                        if (depth == 24)
+                        if (depth == 16)
                         {
                             version2(imagen6416, depth, size);
                         }
@@ -130,7 +130,7 @@ namespace ProyectoArquiH
                         {
                             version2(imagen1608, depth, size);
                         }
-                        if (depth == 24)
+                        if (depth == 16)
                         {
                             version2(imagen16016, depth, size);
                         }
@@ -146,7 +146,7 @@ namespace ProyectoArquiH
                         {
                             version2(imagen5128, depth, size);
                         }
-                        if (depth == 24)
+                        if (depth == 16)
                         {
                             version2(imagen51216, depth, size);
                         }
@@ -162,7 +162,7 @@ namespace ProyectoArquiH
                         {
                             version2(imagen15008, depth, size);
                         }
-                        if (depth == 24)
+                        if (depth == 16)
                         {
                             version2(imagen150016, depth, size);
                         }
@@ -181,7 +181,7 @@ namespace ProyectoArquiH
                         {
                             version3(imagen648, depth, size);
                         }
-                        if (depth == 24)
+                        if (depth == 16)
                         {
                             version3(imagen6416, depth, size);
                         }
@@ -197,7 +197,7 @@ namespace ProyectoArquiH
                         {
                             version3(imagen1608, depth, size);
                         }
-                        if (depth == 24)
+                        if (depth == 16)
                         {
                             version3(imagen16016, depth, size);
                         }
@@ -213,7 +213,7 @@ namespace ProyectoArquiH
                         {
                             version3(imagen5128, depth, size);
                         }
-                        if (depth == 24)
+                        if (depth == 16)
                         {
                             version3(imagen51216, depth, size);
                         }
@@ -229,7 +229,7 @@ namespace ProyectoArquiH
                         {
                             version3(imagen15008, depth, size);
                         }
-                        if (depth == 24)
+                        if (depth == 16)
                         {
                             version3(imagen150016, depth, size);
                         }
@@ -248,7 +248,7 @@ namespace ProyectoArquiH
                         {
                             version4(imagen648, depth, size);
                         }
-                        if (depth == 24)
+                        if (depth == 16)
                         {
                             version4(imagen6416, depth, size);
                         }
@@ -264,7 +264,7 @@ namespace ProyectoArquiH
                         {
                             version4(imagen1608, depth, size);
                         }
-                        if (depth == 24)
+                        if (depth == 16)
                         {
                             version4(imagen16016, depth, size);
                         }
@@ -280,7 +280,7 @@ namespace ProyectoArquiH
                         {
                             version4(imagen5128, depth, size);
                         }
-                        if (depth == 24)
+                        if (depth == 16)
                         {
                             version4(imagen51216, depth, size);
                         }
@@ -296,7 +296,7 @@ namespace ProyectoArquiH
                         {
                             version4(imagen15008, depth, size);
                         }
-                        if (depth == 24)
+                        if (depth == 16)
                         {
                             version4(imagen150016, depth, size);
                         }
@@ -315,7 +315,7 @@ namespace ProyectoArquiH
                         {
                             version5(imagen648, depth, size);
                         }
-                        if (depth == 24)
+                        if (depth == 16)
                         {
                             version5(imagen6416, depth, size);
                         }
@@ -331,7 +331,7 @@ namespace ProyectoArquiH
                         {
                             version5(imagen1608, depth, size);
                         }
-                        if (depth == 24)
+                        if (depth == 16)
                         {
                             version5(imagen16016, depth, size);
                         }
@@ -347,7 +347,7 @@ namespace ProyectoArquiH
                         {
                             version5(imagen5128, depth, size);
                         }
-                        if (depth == 24)
+                        if (depth == 16)
                         {
                             version5(imagen51216, depth, size);
                         }
@@ -363,7 +363,7 @@ namespace ProyectoArquiH
                         {
                             version5(imagen15008, depth, size);
                         }
-                        if (depth == 24)
+                        if (depth == 16)
                         {
                             version5(imagen150016, depth, size);
                         }
