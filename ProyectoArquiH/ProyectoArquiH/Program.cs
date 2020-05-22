@@ -15,7 +15,7 @@ namespace ProyectoArquiH
             {
 
             
-            Console.WriteLine("Version (1,2,3)");
+            Console.WriteLine("Version (1,2,3,4,5)");
             String ver = Console.ReadLine();
             int version = int.Parse(ver);
             Console.WriteLine("size (64,160,512,1500)");
@@ -25,20 +25,20 @@ namespace ProyectoArquiH
             String dep = Console.ReadLine();
             int depth = int.Parse(dep);
 
-            String imagen648 = "./Imagenes/64/8.jpg";
-            String imagen1608 = "./Imagenes/160/8.jpg";
-            String imagen5128 = "./Imagenes/512/8.jpg";
-            String imagen15008 = "./Imagenes/1500/8.jpg";
+            String imagen648 = "./Imagenes/tif/64/8.tif";
+            String imagen1608 = "./Imagenes/tif/160/8.tif";
+            String imagen5128 = "./Imagenes/tif/512/8.tif";
+            String imagen15008 = "./Imagenes/1500/8.tif";
 
-            String imagen6416 = "./Imagenes/64/16.jpg";
-            String imagen16016 = "./Imagenes/160/16.jpg";
-            String imagen51216 = "./Imagenes/512/16.jpg";
-            String imagen150016 = "./Imagenes/1500/16.jpg";
+            String imagen6416 = "./Imagenes/tif/64/16.tif";
+            String imagen16016 = "./Imagenes/tif/160/16.tif";
+            String imagen51216 = "./Imagenes/tif/512/16.tif";
+            String imagen150016 = "./Imagenes/tif/1500/16.tif";
 
-            String imagen6432 = "./Imagenes/64/32.jpg";
-            String imagen16032 = "./Imagenes/160/32.jpg";
-            String imagen51232 = "./Imagenes/512/32.jpg";
-            String imagen150032 = "./Imagenes/1500/32.jpg";
+            String imagen6432 = "./Imagenes/tif/64/32.tif";
+            String imagen16032 = "./Imagenes/tif/160/32.tif";
+            String imagen51232 = "./Imagenes/tif/512/32.tif";
+            String imagen150032 = "./Imagenes/tif/1500/32.tif";
             switch (version)
             {
                 case 1:
@@ -70,7 +70,7 @@ namespace ProyectoArquiH
                         }
                         if (depth == 32)
                         {
-                            version1(imagen16016, depth, size);
+                            version1(imagen16032, depth, size);
                         }
 
                     }
@@ -410,13 +410,14 @@ namespace ProyectoArquiH
             sw.WriteLine("Version 1; " + a.Height + "x" + a.Width + "; " + tiempo);
             sw.Close();
 
-            a.Save("./inv/version1/" + depth + "-" + size + ".jpg", ImageFormat.Jpeg);
+            a.Save("./inv/version1/" + depth + "-" + size + ".tif", ImageFormat.Tiff);
             original.Dispose();
             a.Dispose();
         }
         static void version2(String ubicacion, int depth, int size)
         {
             StreamWriter sw = new StreamWriter("./Txt/Tiempo2.txt");
+            Console.WriteLine(ubicacion);
             Bitmap original = new Bitmap(ubicacion);
             original.Save("./img/Version2-0.png");
             Bitmap a = original;
@@ -461,7 +462,7 @@ namespace ProyectoArquiH
             Console.WriteLine("Tiempo " + tiempo);
             sw.WriteLine("Version 2; " + a.Height + "x" + a.Width + "; " + tiempo);
             sw.Close();
-            a.Save("./inv/version2/" + depth + "-" + size + ".jpg", ImageFormat.Jpeg);
+            a.Save("./inv/version2/" + depth + "-" + size + ".tif", ImageFormat.Tiff);
             original.Dispose();
             a.Dispose();
            
@@ -469,6 +470,7 @@ namespace ProyectoArquiH
         static void version3(String ubicacion, int depth, int size)
         {
             StreamWriter sw = new StreamWriter("./Txt/Tiempo3.txt");
+            Console.WriteLine(ubicacion);
             Bitmap original = new Bitmap(ubicacion);
             original.Save("./img/Version3-0.png");
             Bitmap a = original;
@@ -493,13 +495,14 @@ namespace ProyectoArquiH
             Console.WriteLine("Tiempo " + tiempo);
             sw.WriteLine("Version 3; " + a.Height + "x" + a.Width + "; " + tiempo);
             sw.Close();
-            a.Save("./inv/version3/" + depth + "-" + size + ".jpg", ImageFormat.Jpeg);
+            a.Save("./inv/version3/" + depth + "-" + size + ".tif", ImageFormat.Tiff);
             original.Dispose();
             a.Dispose();
         }
         static void version4(String ubicacion, int depth, int size)
         {
             StreamWriter sw = new StreamWriter("./Txt/Tiempo4.txt");
+            Console.WriteLine(ubicacion);
             Bitmap original = new Bitmap(ubicacion);
             original.Save("./img/Version4-0.png");
             Bitmap a = original;
@@ -534,13 +537,14 @@ namespace ProyectoArquiH
             Console.WriteLine("Tiempo " + tiempo);
             sw.WriteLine("Version 4; " + a.Height + "x" + a.Width + "; " + tiempo);
             sw.Close();
-            a.Save("./inv/version4/" + depth +"-"+ size+".jpg", ImageFormat.Jpeg);
+            a.Save("./inv/version4/" + depth +"-"+ size+ ".tif", ImageFormat.Tiff);
             original.Dispose();
             a.Dispose();
         }
         static void version5(String ubicacion, int depth, int size)
         {
-            StreamWriter sw = new StreamWriter(@"./Txt/Tiempo5.txt");
+            StreamWriter sw = new StreamWriter("./Txt/Tiempo5.txt");
+            Console.WriteLine(ubicacion);
             Bitmap original = new Bitmap(ubicacion);
             original.Save("./img/Version5-0.png");
             Bitmap a = original;
@@ -577,7 +581,7 @@ namespace ProyectoArquiH
             Console.WriteLine("Tiempo " + tiempo);
             sw.WriteLine("Version 5; " + a.Height + "x" + a.Width + "; " + tiempo);
             sw.Close();
-            a.Save("./inv/version5/" + depth + "-" + size + ".jpg", ImageFormat.Jpeg);
+            a.Save("./inv/version5/" + depth + "-" + size + ".tif", ImageFormat.Tiff);
             original.Dispose();
             a.Dispose();
         }
