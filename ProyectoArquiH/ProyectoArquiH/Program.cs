@@ -21,88 +21,88 @@ namespace ProyectoArquiH
             Console.WriteLine("size (64,160,512,1500)");
             String si = Console.ReadLine();
             int size = int.Parse(si);
-            Console.WriteLine("depth (8,16,32)");
+            Console.WriteLine("depth (16,24,48)");
             String dep = Console.ReadLine();
             int depth = int.Parse(dep);
 
-            String imagen648 = "./Imagenes/tif/64/8.tif";
-            String imagen1608 = "./Imagenes/tif/160/8.tif";
-            String imagen5128 = "./Imagenes/tif/512/8.tif";
-            String imagen15008 = "./Imagenes/1500/8.tif";
+            String imagen6424 = "./Imagenes/tif/64/24.tif";
+            String imagen16024 = "./Imagenes/tif/160/24.tif";
+            String imagen51224 = "./Imagenes/tif/512/24.tif";
+            String imagen150024 = "./Imagenes/1500/24.tif";
+
+            String imagen6448 = "./Imagenes/tif/64/48.tif";
+            String imagen16048 = "./Imagenes/tif/160/48.tif";
+            String imagen51248 = "./Imagenes/tif/512/48.tif";
+            String imagen150048 = "./Imagenes/tif/1500/48.tif";
 
             String imagen6416 = "./Imagenes/tif/64/16.tif";
             String imagen16016 = "./Imagenes/tif/160/16.tif";
             String imagen51216 = "./Imagenes/tif/512/16.tif";
             String imagen150016 = "./Imagenes/tif/1500/16.tif";
-
-            String imagen6432 = "./Imagenes/tif/64/32.tif";
-            String imagen16032 = "./Imagenes/tif/160/32.tif";
-            String imagen51232 = "./Imagenes/tif/512/32.tif";
-            String imagen150032 = "./Imagenes/tif/1500/32.tif";
             switch (version)
             {
                 case 1:
                     if (size == 64)
                     {
-                        if (depth == 8)
-                        {
-                            version1(imagen648, depth, size);
-                        }
                         if (depth == 16)
                         {
                             version1(imagen6416, depth, size);
                         }
-                        if (depth == 32)
+                        if (depth == 24)
                         {
-                            version1(imagen6432, depth, size);
+                            version1(imagen6424, depth, size);
+                        }
+                        if (depth == 48)
+                        {
+                            version1(imagen6448, depth, size);
                         }
 
                     }
                     if (size == 160)
                     {
-                        if (depth == 8)
-                        {
-                            version1(imagen1608, depth, size);
-                        }
                         if (depth == 16)
                         {
                             version1(imagen16016, depth, size);
                         }
-                        if (depth == 32)
+                        if (depth == 24)
                         {
-                            version1(imagen16032, depth, size);
+                            version1(imagen16024, depth, size);
+                        }
+                        if (depth == 48)
+                        {
+                            version1(imagen16048, depth, size);
                         }
 
                     }
                     if (size == 512)
                     {
-                        if (depth == 8)
-                        {
-                            version1(imagen5128, depth, size);
-                        }
                         if (depth == 16)
                         {
                             version1(imagen51216, depth, size);
                         }
-                        if (depth == 32)
+                        if (depth == 24)
                         {
-                            version1(imagen51232, depth, size);
+                            version1(imagen51224, depth, size);
+                        }
+                        if (depth == 48)
+                        {
+                            version1(imagen51248, depth, size);
                         }
 
                     }
                     if (size == 1500)
                     {
-                        if (depth == 8)
-                        {
-                            version1(imagen15008, depth, size);
-                        }
                         if (depth == 16)
                         {
                             version1(imagen150016, depth, size);
                         }
-                        if (depth == 32)
+                        if (depth == 24)
                         {
-                            version1(imagen150032, depth, size);
+                            version1(imagen150024, depth, size);
+                        }
+                        if (depth == 48)
+                        {
+                            version1(imagen150048, depth, size);
                         }
 
                     }
@@ -110,65 +110,65 @@ namespace ProyectoArquiH
                 case 2:
                     if (size == 64)
                     {
-                        if (depth == 8)
-                        {
-                            version2(imagen648, depth, size);
-                        }
                         if (depth == 16)
                         {
                             version2(imagen6416, depth, size);
                         }
-                        if (depth == 32)
+                        if (depth == 24)
                         {
-                            version2(imagen6432, depth, size);
+                            version2(imagen6424, depth, size);
+                        }
+                        if (depth == 48)
+                        {
+                            version2(imagen6448, depth, size);
                         }
 
                     }
                     if (size == 160)
                     {
-                        if (depth == 8)
-                        {
-                            version2(imagen1608, depth, size);
-                        }
                         if (depth == 16)
                         {
                             version2(imagen16016, depth, size);
                         }
-                        if (depth == 32)
+                        if (depth == 24)
                         {
-                            version2(imagen16032, depth, size);
+                            version2(imagen16024, depth, size);
+                        }
+                        if (depth == 48)
+                        {
+                            version2(imagen16048, depth, size);
                         }
 
                     }
                     if (size == 512)
                     {
-                        if (depth == 8)
-                        {
-                            version2(imagen5128, depth, size);
-                        }
                         if (depth == 16)
                         {
                             version2(imagen51216, depth, size);
                         }
-                        if (depth == 32)
+                        if (depth == 24)
                         {
-                            version2(imagen51232, depth, size);
+                            version2(imagen51224, depth, size);
+                        }
+                        if (depth == 48)
+                        {
+                            version2(imagen51248, depth, size);
                         }
 
                     }
                     if (size == 1500)
                     {
-                        if (depth == 8)
-                        {
-                            version2(imagen15008, depth, size);
-                        }
                         if (depth == 16)
                         {
                             version2(imagen150016, depth, size);
                         }
-                        if (depth == 32)
+                        if (depth == 24)
                         {
-                            version2(imagen150032, depth, size);
+                            version2(imagen150024, depth, size);
+                        }
+                        if (depth == 48)
+                        {
+                            version2(imagen150048, depth, size);
                         }
 
                     }
@@ -177,65 +177,65 @@ namespace ProyectoArquiH
                 case 3:
                     if (size == 64)
                     {
-                        if (depth == 8)
-                        {
-                            version3(imagen648, depth, size);
-                        }
                         if (depth == 16)
                         {
                             version3(imagen6416, depth, size);
                         }
-                        if (depth == 32)
+                        if (depth == 24)
                         {
-                            version3(imagen6432, depth, size);
+                            version3(imagen6424, depth, size);
+                        }
+                        if (depth == 48)
+                        {
+                            version3(imagen6448, depth, size);
                         }
 
                     }
                     if (size == 160)
                     {
-                        if (depth == 8)
-                        {
-                            version3(imagen1608, depth, size);
-                        }
                         if (depth == 16)
                         {
                             version3(imagen16016, depth, size);
                         }
-                        if (depth == 32)
+                        if (depth == 24)
                         {
-                            version3(imagen16032, depth, size);
+                            version3(imagen16024, depth, size);
+                        }
+                        if (depth == 48)
+                        {
+                            version3(imagen16048, depth, size);
                         }
 
                     }
                     if (size == 512)
                     {
-                        if (depth == 8)
-                        {
-                            version3(imagen5128, depth, size);
-                        }
                         if (depth == 16)
                         {
                             version3(imagen51216, depth, size);
                         }
-                        if (depth == 32)
+                        if (depth == 24)
                         {
-                            version3(imagen51232, depth, size);
+                            version3(imagen51224, depth, size);
+                        }
+                        if (depth == 48)
+                        {
+                            version3(imagen51248, depth, size);
                         }
 
                     }
                     if (size == 1500)
                     {
-                        if (depth == 8)
-                        {
-                            version3(imagen15008, depth, size);
-                        }
                         if (depth == 16)
                         {
                             version3(imagen150016, depth, size);
                         }
-                        if (depth == 32)
+                        if (depth == 24)
                         {
-                            version3(imagen150032, depth, size);
+                            version3(imagen150024, depth, size);
+                        }
+                        if (depth == 48)
+                        {
+                            version3(imagen150048, depth, size);
                         }
 
                     }
@@ -244,65 +244,65 @@ namespace ProyectoArquiH
                 case 4:
                     if (size == 64)
                     {
-                        if (depth == 8)
-                        {
-                            version4(imagen648, depth, size);
-                        }
                         if (depth == 16)
                         {
                             version4(imagen6416, depth, size);
                         }
-                        if (depth == 32)
+                        if (depth == 24)
                         {
-                            version4(imagen6432, depth, size);
+                            version4(imagen6424, depth, size);
+                        }
+                        if (depth == 48)
+                        {
+                            version4(imagen6448, depth, size);
                         }
 
                     }
                     if (size == 160)
                     {
-                        if (depth == 8)
-                        {
-                            version4(imagen1608, depth, size);
-                        }
                         if (depth == 16)
                         {
                             version4(imagen16016, depth, size);
                         }
-                        if (depth == 32)
+                        if (depth == 24)
                         {
-                            version4(imagen16032, depth, size);
+                            version4(imagen16024, depth, size);
+                        }
+                        if (depth == 48)
+                        {
+                            version4(imagen16048, depth, size);
                         }
 
                     }
                     if (size == 512)
                     {
-                        if (depth == 8)
-                        {
-                            version4(imagen5128, depth, size);
-                        }
                         if (depth == 16)
                         {
                             version4(imagen51216, depth, size);
                         }
-                        if (depth == 32)
+                        if (depth == 24)
                         {
-                            version4(imagen51232, depth, size);
+                            version4(imagen51224, depth, size);
+                        }
+                        if (depth == 48)
+                        {
+                            version4(imagen51248, depth, size);
                         }
 
                     }
                     if (size == 1500)
                     {
-                        if (depth == 8)
-                        {
-                            version4(imagen15008, depth, size);
-                        }
                         if (depth == 16)
                         {
                             version4(imagen150016, depth, size);
                         }
-                        if (depth == 32)
+                        if (depth == 24)
                         {
-                            version4(imagen150032, depth, size);
+                            version4(imagen150024, depth, size);
+                        }
+                        if (depth == 48)
+                        {
+                            version4(imagen150048, depth, size);
                         }
 
                     }
@@ -311,65 +311,65 @@ namespace ProyectoArquiH
                 case 5:
                     if (size == 64)
                     {
-                        if (depth == 8)
-                        {
-                            version5(imagen648, depth, size);
-                        }
                         if (depth == 16)
                         {
                             version5(imagen6416, depth, size);
                         }
-                        if (depth == 32)
+                        if (depth == 24)
                         {
-                            version5(imagen6432, depth, size);
+                            version5(imagen6424, depth, size);
+                        }
+                        if (depth == 48)
+                        {
+                            version5(imagen6448, depth, size);
                         }
 
                     }
                     if (size == 160)
                     {
-                        if (depth == 8)
-                        {
-                            version5(imagen1608, depth, size);
-                        }
                         if (depth == 16)
                         {
                             version5(imagen16016, depth, size);
                         }
-                        if (depth == 32)
+                        if (depth == 24)
                         {
-                            version5(imagen16032, depth, size);
+                            version5(imagen16024, depth, size);
+                        }
+                        if (depth == 48)
+                        {
+                            version5(imagen16048, depth, size);
                         }
 
                     }
                     if (size == 512)
                     {
-                        if (depth == 8)
-                        {
-                            version5(imagen5128, depth, size);
-                        }
                         if (depth == 16)
                         {
                             version5(imagen51216, depth, size);
                         }
-                        if (depth == 32)
+                        if (depth == 24)
                         {
-                            version5(imagen51232, depth, size);
+                            version5(imagen51224, depth, size);
+                        }
+                        if (depth == 48)
+                        {
+                            version5(imagen51248, depth, size);
                         }
 
                     }
                     if (size == 1500)
                     {
-                        if (depth == 8)
-                        {
-                            version5(imagen15008, depth, size);
-                        }
                         if (depth == 16)
                         {
                             version5(imagen150016, depth, size);
                         }
-                        if (depth == 32)
+                        if (depth == 24)
                         {
-                            version5(imagen150032, depth, size);
+                            version5(imagen150024, depth, size);
+                        }
+                        if (depth == 48)
+                        {
+                            version5(imagen150048, depth, size);
                         }
 
                     }
@@ -380,14 +380,23 @@ namespace ProyectoArquiH
             }
             }
         }
-
+        static Bitmap ChangePixelFormat(Bitmap inputImage, PixelFormat newFormat)
+        {
+            Bitmap bmp = new Bitmap(inputImage.Width, inputImage.Height, newFormat);
+            using (Graphics g = Graphics.FromImage(bmp))
+            {
+                g.DrawImage(inputImage, new Rectangle(0, 0, inputImage.Width, inputImage.Height));
+            }
+            return bmp;
+        }
         static void version1(String ubicacion, int depth, int size)
         {
             StreamWriter sw = new StreamWriter("./Txt/Tiempo1.txt");
             Console.WriteLine(ubicacion);
             Bitmap original = new Bitmap(ubicacion);
             original.Save("./img/Version1-0.png");
-            Bitmap a = original;
+            Bitmap a =original;
+           
             Color c;
             //Stopwatch
             long tiempo = 0;
